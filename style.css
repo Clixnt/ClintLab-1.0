@@ -1,0 +1,326 @@
+body {
+    background-image: url(back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/*The ClintLAB*/
+header {
+    border-radius: 10px 10px 0px 0px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px 1px black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+    font-family: papyrus;
+    font-weight: bold;
+    color: white;
+    text-shadow: -2px 2px 15px white;
+    text-align: center;
+    padding-top: 20px;
+}
+header p {
+    text-align: center;
+    font-size: 11px;
+    color: white;
+    text-shadow: -2px 2px 15px white;
+    padding-bottom: 10px;
+}
+
+/*Navigation Bar*/
+header nav {
+   display: flex; 
+   justify-content: center;
+    
+   box-shadow: 0px 0px 30px 1px black;
+   backdrop-filter: blur(30px);
+   border-radius: 0px 0px 10px 10px;
+
+}
+header nav ul li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+li {
+    font-weight: bold;
+    transition: ease-in-out 0.5s;
+}
+li a {
+    color: white;
+}
+li:hover {
+    background-color: gray;
+    border-radius: 8px;
+     transition: ease-in-out 0.5s;
+}
+
+/*main-section-arcticle*/
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+main section {
+    padding: 15px;
+    box-shadow: 0px 0px 30px 1px black;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    width: 40%;
+}
+
+/* Section-article Images*/
+.arc1 {
+    background-image: url(image/news3.webp);
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 30px 1px black;
+    border-radius: 10px;
+}
+.arc2 { 
+    background-image: url(image/news6.png);
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 30px 1px black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.arc3 {
+    background-image: url(image/news11.webp);
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 30px 1px black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/*article h3 and p text*/
+main section article h3 {
+    width: fit-content;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 270px;
+     transition: ease-in-out 0.5s;
+}
+main section article p {
+    font-size: 13px;
+    margin-left: 20px;
+    color: whitesmoke;
+    width: fit-content;
+    transition: ease-in-out 0.5s;
+}
+
+/*Hover text (Main and Aside)*/
+main section article h3:hover {
+    background-color: gray;
+    border-radius: 8px;
+    transition: ease-in-out 0.5s;
+}
+main section article p:hover {
+    background-color: gray;
+    border-radius: 8px;
+     transition: ease-in-out 0.5s;
+}
+aside p:hover {
+    background-color: gray;
+    border-radius: 8px;
+     transition: ease-in-out 0.5s;
+}
+
+/*ASIDE 1,2,3*/
+aside {
+    box-shadow: 0px 0px 30px 1px black;
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.asd2-arc {
+    background-color: beige;
+    box-shadow: 0px 0px 30px 1px black;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+.asd2-arc2 {
+    background-color: bisque;
+    box-shadow: 0px 0px 30px 1px black;
+    padding: 10px;
+}
+.asd2-arc3 {
+    background-color: burlywood;
+    box-shadow: 0px 0px 30px 1px black;
+    padding: 10px;
+}
+
+/*ASIDE 4,5,6*/
+.asd1-arc {
+    background-color: beige;
+    box-shadow: 0px 0px 30px 1px black;
+    padding: 10px;
+}
+.asd1-arc2 {
+    background-color: bisque;
+    box-shadow: 0px 0px 30px 1px black;
+    padding: 10px;
+}
+.asd1-arc3 {
+    background-color: burlywood;
+    box-shadow: 0px 0px 30px 1px black;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+/*aside p and a*/
+aside p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding: 5px;
+    transition: ease-in-out 0.5s;
+}
+aside img {
+    width: 180px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-shadow: 0px 0px 30px 1px black;
+}
+
+/*FOOTER*/
+footer {
+    height: 15vh;
+    margin-top: 20px;
+    display: flex;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px 1px black;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+/*FOOTER about*/
+#footer-about {
+    font-family: serif;
+    font-size: 18px;
+    padding-left: 25px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+#footer-p {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 30px;
+    color: aliceblue;
+}
+#footer-p2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 30px;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+/*FOOTER name*/
+.footer-name {
+    flex: 1;
+}
+#footer-h4 {
+    font-size: 40px;
+    font-family: papyrus;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+    text-shadow: -2px 2px 15px white;
+    margin-right: 40px;
+}
+
+
+/* responsive */
+@media (max-width: 1300px) {
+    main section {
+       width: 60%;
+    }
+    main section article h3 {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 270px;
+    }
+    main section article p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 650px) {
+    main {
+        flex-wrap: wrap;
+    }
+    main section {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0px;
+     }
+     main section article h3 {
+         font-size: 18px;
+         margin-left: 10px;
+         margin-top: 270px;
+     }
+     main section article p {
+         font-size: 13px;
+         margin-left: 10px;
+     }
+     aside {
+        width: 100%;
+     }
+     header nav {
+        display: none;
+     }
+     header {
+        border-radius: 10px;
+     }
+
+     aside p {
+        font-size: 20px;
+        padding: 0;
+        
+    }
+    aside img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 445px) {
+    .arc1 {
+        height: 60%;
+    }
+    .arc2 {
+        height: 55%;
+    }
+    .arc3 {
+        height: 60%;
+    }
+    #footer-about, #footer-p, #footer-p2 {
+        display: none;
+    }
+    footer {
+        overflow: hidden;
+    }
+    .footer-name {
+        position: absolute;
+        width: 100%;
+    }
+    #footer-h4 {
+        text-align: center;
+        margin-right: 0px;
+    }
+}

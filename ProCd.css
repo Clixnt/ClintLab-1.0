@@ -1,0 +1,170 @@
+body {
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+* {
+    text-decoration: none;
+}
+.background {
+    background-color: #1b1b1b;
+    border: whitesmoke solid 3px;
+    display: inline-block;
+
+    height: 500px;
+    width: 400px;
+
+    box-shadow: -5px -5px 15px 10px #1b1b1b;
+    border-radius: 20px;
+}
+#clint {
+    font-family: papyrus;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+}
+#Pepe {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: green -1px 1px 15px 1px;
+
+    margin-left: 145px;
+    height: 110px;
+    width: 110px;
+
+    transition: ease-in-out 0.3s;
+}
+.Profile {
+    width: 400px;
+    height: 110px;
+}
+.name {
+    text-shadow: 3px 3px 20px green;
+    width: 400px;
+}
+#MyName {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: green;
+    transition: ease-in-out 0.3s;
+}
+.login-container {
+    width: 400px;
+    position: absolute;
+}
+input {
+    width: 80%;
+    
+    padding:6px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+
+    margin-block: 4px;
+    margin-left: 30px;
+}
+#Login {
+    width: 20%;
+    border-radius: 7px;
+    margin-block: 3px;
+
+    margin-left: 30px;
+}
+#CreateAcc {
+    width: 30%;
+    border-radius: 7px;
+    margin-block: 3px;
+
+    margin-left: 130px;
+}
+.Logo {
+    width: 100%;
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+.Logo a {
+    text-decoration: none;
+    transition: ease-in-out 0.4s;
+}
+#youtube {
+    width: 48px;
+    height: 40px;
+    padding: 5px;
+    transition: ease-in-out 0.3s;
+}
+#twitter {
+    width: 48px;
+    height: 40px;
+    padding: 5px;
+    transition: ease-in-out 0.3s;
+}
+#facebook {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+/*Hover transition*/
+input, button {
+    transition: ease-in-out 0.3s;
+}
+input:hover {
+    transition: ease-in-out 0.3s;
+    background-color: antiquewhite;
+    scale: 1.03;
+}
+button:hover {
+    transition: ease-in-out 0.3s;
+    background-color: antiquewhite;
+    scale: 1.10;
+}
+
+/*Hover logo*/
+#youtube:hover {
+    transition: ease-in-out 0.3s;
+    filter: drop-shadow(2px 2px 20px red);
+    border-radius: 10px;
+    scale: 1.05;
+}
+#twitter:hover {
+    transition: ease-in-out 0.3s;
+    filter: drop-shadow(2px 2px 20px blue);
+    border-radius: 10px;
+    scale: 1.05;
+}
+#facebook:hover {
+    transition: ease-in-out 0.3s;
+    filter: drop-shadow(2px 2px 20px aqua);
+    border-radius: 10px;
+    scale: 1.05;
+}
+
+/*Hover clintlab*/
+.website p:hover {
+    transition: ease-in-out 0.3s;
+    text-shadow: -2px 2px 15px white;
+    border-radius: 10px;
+    scale: 1.10;
+}
+.website p {
+    transition: ease-in-out 0.4s;
+}
+
+
+#Pepe:hover {
+    filter: drop-shadow(2px 2px 20px green);
+    transition: ease-in-out 0.3s;
+    scale: 1.09;
+}
+
+#MyName:hover {
+    transition: ease-in-out 0.3s;
+    text-shadow: 1px 1px 10px green;
+    border-radius: 10px;
+    scale: 1.05;
+}
