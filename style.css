@@ -200,7 +200,7 @@ aside img {
 
 /*FOOTER*/
 footer {
-    height: 15vh;
+    height: fit-content;
     margin-top: 20px;
     display: flex;
     backdrop-filter: blur(30px);
